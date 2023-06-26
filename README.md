@@ -26,7 +26,8 @@ docker push myapp1992.azurecr.io/bankapp:v1
 
 ***Create a service principle in Azure***
 
-az ad sp create-for-rbac --name "github-actions-subrata-19927" --role contributor --scopes /subscriptions/<subscription_key>/<resource_group> --sdk-auth
+az ad sp create-for-rbac --name "github-actions" --role contributor
+--scopes /subscriptions/<Subscription_ID>/resourceGroups/<resource_group_name> --sdkauth
 
 ***Github secrets***
 
