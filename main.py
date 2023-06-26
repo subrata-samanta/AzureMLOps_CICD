@@ -48,7 +48,7 @@ class LoanPred(BaseModel):
 
 @app.get('/')
 def index():
-    return {'message': 'Loan Prediction App Modified by github actions...'}
+    return {'message': 'Loan Prediction App'}
 
 @app.get('/health')
 def healthcheck():
