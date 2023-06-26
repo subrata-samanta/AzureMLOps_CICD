@@ -35,4 +35,4 @@ az ad sp create-for-rbac --name "github-actions" --role contributor
 
 •	 REGISTRY_USERNAME: clientId value from JSON response
 
-•	 REGISTRY_PASSWORD: clientSecret value from JSON response
+•	 REGISTRY_PASSWORD: clientSecret value from JSON response.
