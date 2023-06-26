@@ -1,4 +1,4 @@
 #!/bin/bash
 
 pip install app/src/
-python app/main.py
+python /app/src/prediction_model/train_pipeline.py && app/main.py
