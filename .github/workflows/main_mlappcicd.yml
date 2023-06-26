@@ -54,7 +54,7 @@ jobs:
     - name: Deploy to App Service
       uses: azure/webapps-deploy@v2
       with:
-        app-name: 'myapp1992'
+        app-name: 'mlappcicd'
         images: 'myapp1992.azurecr.io/bankapp:${{ github.sha }}'
 
     - name: Azure logout
