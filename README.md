@@ -22,7 +22,7 @@ az ad sp create-for-rbac --name "github-actions-subrata-19927" --role contributo
 
 ***Github secrets***
 
-•	 AZURE CREDENTIALS: Entire JSON response from preceding
+•	 AZURE_CREDENTIALS: Entire JSON response from preceding
 
 •	 REGISTRY_USERNAME: clientId value from JSON response
 
